@@ -93,5 +93,11 @@ python main.py
 
 <div align="center">
   <img src="https://capsule-render.vercel.sh/content?type=slice&color=778da9&height=30&section=footer" width="100%" />
-  <sub>Built to keep the daily streak active. Happy automated coding! 🚀</sub>
 </div>
+
+<table width="100%">
+  <tr>
+    <td align="left"><sub>Built to keep the daily streak active. Happy automated coding! 🚀</sub></td>
+    <td align="right"><sub>🤖 coded by <b><a href="https://github.com/SirWizz">@SirWizz</a></b></sub></td>
+  </tr>
+</table>
