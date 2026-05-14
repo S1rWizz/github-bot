@@ -7,11 +7,23 @@ from dotenv import load_dotenv
 
 load_dotenv()
 access_token=os.environ.get("tok")
+repo_name=os.environ.get("repo_name")
+
 
 auth = Auth.Token(access_token)
-
-# Public Web Github
 g = Github(auth=auth)
 
-for repo in g.get_user().get_repos():
-    print(repo.name)
+flag=0
+try:
+    for repo in g.get_user().get_repos():
+        if repo.name==repo_name:
+            print(f"Repo '{repo_name}' found!")
+            flag=1
+            break
+
+    if flag==0:
+        print(f"Repo '{repo_name}' not found... crosscheck the name (case sensitive)")
+except Exception as e:
+    print("ERROR!!")
+    print("Check your token.. is it in quotes? all perms enabled?")
+
