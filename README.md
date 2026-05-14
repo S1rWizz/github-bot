@@ -97,7 +97,7 @@ python main.py
 
 <table width="100%">
   <tr>
-    <td align="left"><sub>Built to keep the daily streak active. Happy automated coding! 🚀</sub></td>
-    <td align="right"><sub>🤖 coded by <b><a href="https://github.com/SirWizz">@SirWizz</a></b></sub></td>
+    <td align="center"><sub>Built to keep the daily streak active. Happy automated coding! 🚀</sub></td>
+    <td align="right"><sub>by <b><a href="https://github.com/SirWizz">@SirWizz</a></b></sub></td>
   </tr>
 </table>
