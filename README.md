@@ -1,6 +1,3 @@
-<div align="center">
-  <img src="https://capsule-render.vercel.sh/content?type=waving&color=0:415a77,50:778da9,100:e0e1dd&height=220&section=header&text=🟢%20GitHub%20Bot&fontSize=50&fontColor=ffffff&animation=fadeIn" width="100%" />
-  
   <p align="center">
     <strong>Auto-create commits to seamlessly keep your contribution graph green and glowing. 😉</strong>
   </p>
