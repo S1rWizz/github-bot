@@ -6,10 +6,12 @@ import os
 from dotenv import load_dotenv
 
 load_dotenv()
-token=os.environ.get("tok")
+access_token=os.environ.get("tok")
 
-auth = Auth.Token("access_token")
+auth = Auth.Token(access_token)
+
+# Public Web Github
 g = Github(auth=auth)
-g.get_user().login
 
-print(g)
+for repo in g.get_user().get_repos():
+    print(repo.name)
